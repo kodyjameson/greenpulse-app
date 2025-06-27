@@ -1,5 +1,3 @@
-# GreenPulse: AI-Driven Lawn Optimization Platform (Streamlit MVP)
-
 import streamlit as st
 import datetime
 import random
@@ -25,9 +23,9 @@ with col1:
     st.markdown("---")
     st.markdown("### Lawn Map Preview")
     st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/4/49/Lawn_layout_example.png",
+        "https://cdn.pixabay.com/photo/2017/05/10/21/46/garden-2309879_1280.jpg",
         caption="Coverage Map (Simulated)",
-        use_container_width=True  # ✅ Corrected here
+        use_container_width=True
     )
 
 with col2:
